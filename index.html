@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
   <title>Simple</title>
   <link rel="stylesheet" href="main.css">
 </head>
@@ -39,7 +41,7 @@
         <img class="header__social-item-img" src="img/icons/medium.svg" alt="Medium">
       </a>
     </div>
-    <a href="#" class="header__link btn__primary">Get started</a>
+    <a href="#" class="btn header__link">Get started</a>
   </header>
 
   <section class="first">
@@ -77,13 +79,18 @@
     <div class="container">
       <div class="plan__wrap">
         <div class="plan__info">
-          <h4 class="plan__info-subtitle">DESKTOP AND MOBILE APP</h4>
-          <h3 class="plan__info-title">Plan and manage</h3>
-          <p class="plan__info-text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem
+          <h4 class="main-subtitle plan__info-subtitle">DESKTOP AND MOBILE APP</h4>
+          <h3 class="main-title plan__info-title">Plan and manage</h3>
+          <p class="main-text plan__info-text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui
+            laudem
             an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex
             malis mollis oporteat. Eum an expetenda consequat.</p>
-          <a href="#">View video</a>
-          <a href="#">See features</a>
+          <a class="btn btn--blue" href="#">
+            View video
+            <img src="img/icon-play.svg" alt="play">
+          </a>
+          <!--
+          --><a class="btn btn--transparent" href="#">See features</a>
         </div>
         <div class="plan__img">
           <img class="plan__img-img" src="img/plan-bg.png" alt="">
@@ -94,8 +101,8 @@
 
   <section class="about">
     <div class="container">
-      <h4 class="about__subtitle">ABOUT US</h4>
-      <h3 class="about__subtitle">Read about our app</h3>
+      <h4 class="main-subtitle about__subtitle">ABOUT US</h4>
+      <h3 class="main-title about__subtitle">Read about our app</h3>
       <div class="about__list">
         <div class="about__item">
           <div class="about__item-img">
@@ -128,9 +135,9 @@
         </div>
       </div>
       <div class="about__btns">
-        <a class="about__btns-btn" href="#">Read more</a>
+        <a class="btn btn--red about__btns-btn" href="#">Read more</a>
         <span class="about__btns-separator">OR</span>
-        <a class="about__btns-btn" href="#">Get started</a>
+        <a class="btn about__btns-btn" href="#">Get started</a>
       </div>
     </div>
   </section>
@@ -150,20 +157,21 @@
 
   <section class="blog">
     <div class="container">
-      <h4 class="blog__subtitle">OUR RESOURCES</h4>
-      <h3 class="blog__title">Start reading our blog</h3>
+      <h4 class="main-subtitle blog__subtitle">OUR RESOURCES</h4>
+      <h3 class="main-title blog__title">Start reading our blog</h3>
       <div class="blog__wrap">
         <div class="blog__item">
           <div class="blog__item-img">
             <img src="img/blog.png" alt="">
           </div>
-          <h3>How to start planning</h3>
-          <p>Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius
+          <h3 class="blog__item-title">How to start planning</h3>
+          <p class="main-text blog__item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu
+            vidit tractatos, vero tractatos ius
             an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique
             pro at, eos ut decore ...
           </p>
-          <a href="#">Read now</a>
-          <a href="#">Add to your bookmarks</a>
+          <a class="btn blog__item-btn" href="#">Read now</a>
+          <a class="btn btn--transparent-all blog__item-btn" href="#">Add to your bookmarks</a>
         </div>
       </div>
     </div>
@@ -173,32 +181,19 @@
     <div class="container">
       <div class="quotes__wrap">
         <div class="quotes__info">
-          <h4 class="quotes__info-subtitle">TESTIMONIALS</h4>
-          <h3 class="quotes__info-subtitle">Customers's quotes</h3>
-          <p class="quotes__info-subtitle">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui
+          <h4 class="main-subtitle quotes__info-subtitle">Testimonials</h4>
+          <h3 class="main-title quotes__info-subtitle">Customers's quotes</h3>
+          <p class="main-text quotes__info-subtitle">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
+            atqui
             laudem an.</p>
         </div>
         <div class="quotes__slider">
-          <div class="quotes__slider-item">
-            <h3 class="quotes__slider-item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu
+          <div class="quotes__item">
+            <h5 class="main-text quotes__item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu
               vidit tractatos, vero tractatos ius
               an, in mel diceret persecuti.
-            </h3>
-            <img class="quotes__slider-item-img" src="img/quotes-avatar.png" alt="">
-          </div>
-          <div class="quotes__slider-item">
-            <h3 class="quotes__slider-item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu
-              vidit tractatos, vero tractatos ius
-              an, in mel diceret persecuti.
-            </h3>
-            <img class="quotes__slider-item-img" src="img/quotes-avatar.png" alt="">
-          </div>
-          <div class="quotes__slider-item">
-            <h3 class="quotes__slider-item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu
-              vidit tractatos, vero tractatos ius
-              an, in mel diceret persecuti.
-            </h3>
-            <img class="quotes__slider-item-img" src="img/quotes-avatar.png" alt="">
+            </h5>
+            <img class="quotes__item-img" src="img/quotes-avatar.png" alt="">
           </div>
         </div>
       </div>
@@ -207,76 +202,88 @@
 
   <section class="questions">
     <div class="container">
-      <h4 class="questions__subtitle">Customer help</h4>
-      <h3 class="questions__subtitle">Frequently asked questions</h3>
+      <h4 class="main-subtitle questions__subtitle">Customer help</h4>
+      <h3 class="main-title questions__subtitle">Frequently asked questions</h3>
       <div class="questions__list">
         <div class="questions__item">
           <h3 class="questions__item-title">Reque insolens in vel?</h3>
           <p class="questions__item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit
             tractatos, vero tractatos ius an, in mel diceret persecuti.
         </div>
+        <div class="questions__item">
+          <h3 class="questions__item-title">Reque insolens in vel?</h3>
+          <p class="questions__item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit
+            tractatos, vero tractatos ius an, in mel diceret persecuti.
+        </div>
+        <div class="questions__item">
+          <h3 class="questions__item-title">Reque insolens in vel?</h3>
+          <p class="questions__item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit
+            tractatos, vero tractatos ius an, in mel diceret persecuti.
+        </div>
       </div>
-      <div class="questions__item">
-        <h3 class="questions__item-title">Reque insolens in vel?</h3>
-        <p class="questions__item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit
-          tractatos, vero tractatos ius an, in mel diceret persecuti.
-      </div>
-    </div>
-    <div class="questions__item">
-      <h3 class="questions__item-title">Reque insolens in vel?</h3>
-      <p class="questions__item-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit
-        tractatos, vero tractatos ius an, in mel diceret persecuti.
-    </div>
-    </div>
-    </div>
     </div>
   </section>
 
   <section class="started">
     <div class="container">
-      <h4 class="started__subtitle">PLAN YOUR LIFE</h4>
-      <h3 class="started__subtitle">Get started now</h3>
-      <p class="started__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an,
+      <h4 class="main-subtitle started__subtitle">PLAN YOUR LIFE</h4>
+      <h3 class="main-title started__subtitle">Get started now</h3>
+      <p class="main-text started__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui
+        laudem an,
         insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
-      <a class="started__link" href="#">View pricing</a>
-      <a class="started__link" href="#">Read documentation</a>
+      <a class="btn btn--white started__link" href="#">View pricing</a>
+      <!--
+      --><a class="btn btn--transparent started__link" href="#">Read documentation</a>
     </div>
   </section>
 
   <section class="contact">
     <div class="container">
-      <div class="contact__info">
-        <h3 class="contact__info-title">Sign up for newsletter</h3>
-        <p class="contact__info-text">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.</p>
+      <div class="contact__wrap">
+        <div class="contact__info">
+          <h3 class="contact__info-title">Sign up for newsletter</h3>
+          <p class="main-text contact__info-text">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero
+            alterum.</p>
+        </div>
+        <form action="#" class="contact__form">
+          <input class="contact__form-input" type="text" placeholder="Email address">
+          <button class="btn btn--blue contact__form-button" type="submit">Save me</button>
+        </form>
       </div>
-      <form action="#" class="contact__form">
-        <input class="contact__form-input" type="text" placeholder="Email address">
-        <button class="contact__form-button" type="submit">Save me</button>
-      </form>
     </div>
   </section>
 
   <footer class="footer">
-    <div class="container">
-      <div class="header__logo">
-        <img src="" alt="">
-      </div>
-      <nav class="header__list">
-        <a href="#">Home</a>
-        <a href="#">Blog</a>
-        <a href="#">Features</a>
-        <a href="#">Pricing</a>
-        <a href="#">Documentation</a>
-      </nav>
-      <ul class="header__social">
-        <li>
-          <img src="" alt="facebook">
-        </li>
-      </ul>
-      <a href="#" class="header__link">Get started</a>
-      <div class="footer__copy">Copyright © 2018 by Random site</div>
+    <div class="header__logo">
+      <img class="header__logo-img" src="img/logo.svg" alt="Logo">
     </div>
+    <nav class="header__list">
+      <a class="header__list-item" href="#">Home</a>
+      <a class="header__list-item" href="#">Blog</a>
+      <a class="header__list-item" href="#">Features</a>
+      <a class="header__list-item" href="#">Pricing</a>
+      <a class="header__list-item" href="#">Documentation</a>
+    </nav>
+    <div class="header__social">
+      <a href="#" class="header__social-item">
+        <img class="header__social-item-img" src="img/icons/facebook.svg" alt="Facebook">
+      </a>
+      <a href="#" class="header__social-item">
+        <img class="header__social-item-img" src="img/icons/telegram.svg" alt="Telegram">
+      </a>
+      <a href="#" class="header__social-item">
+        <img class="header__social-item-img" src="img/icons/twitter.svg" alt="Twitter">
+      </a>
+      <a href="#" class="header__social-item">
+        <img class="header__social-item-img" src="img/icons/medium.svg" alt="Medium">
+      </a>
+    </div>
+    <a href="#" class="btn header__link">Get started</a>
+    <div class="footer__copy">Copyright © 2018 by Random site</div>
   </footer>
+
+
+  <script src="main.js"></script>
 
 </body>
 
